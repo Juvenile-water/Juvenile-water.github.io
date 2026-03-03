@@ -27,15 +27,13 @@
     <main>
       <section id="home" class="hero">
         <div class="container">
-          <p>
-            Monitor and analyze your data with our comprehensive dashboard
-            solution.
-          </p>
+          <p>Suivez les données de votre fontaine en temps réel.</p>
         </div>
       </section>
 
       <section id="dashboard" class="dashboard-section">
         <div class="container">
+          <h2>Consommation et impact</h2>
           <div class="iframe-container">
             <iframe
               src="https://api.droople.com/awareness_screens/f337db55-a3d3-4d8a-a26f-56b20955cd2e/html"
@@ -45,15 +43,56 @@
             >
             </iframe>
           </div>
+          <h2>Consommables</h2>
+          <div class="widgets-container">
+            <div class="widget">
+              <h3>CO₂</h3>
+              <p><b>≥ 5%</b> CO₂ restants</p>
+              <p style="color: red">
+                Le capteur utilisé permet seulement de détecter le niveau bas de
+                CO₂. Par ailleurs, l'interface Droople ne permet pas de
+                paramétrer le dashboard pour afficher le niveau de CO₂.
+              </p>
+            </div>
+            <div class="widget">
+              <h3>Minéraux</h3>
+              <p><b>235 g / 1 kg</b> restants</p>
+              <p style="color: red">
+                L'interface Droople ne permet pas de paramétrer le dashboard
+                pour calculer un proxy pour les minéraux restants.
+              </p>
+            </div>
+          </div>
+          <h2>Sanité</h2>
+          <div class="widgets-container">
+            <div class="widget">
+              <h3>Qualité de l'eau</h3>
+              <p>TDS moyen : <b>100 mg/L</b></p>
+              <p>Température moyenne : <b>10 °C</b></p>
+              <p style="color: red">
+                Ces données sont mesurées par Droople mais ne sont pas
+                paramétrables dans le dashboard.
+              </p>
+            </div>
+          </div>
+          <h2>État de la fontaine</h2>
+          <div class="widgets-container">
+            <div class="widget">
+              <h3>État de la fontaine</h3>
+              <p style="color: red">
+                Quels critères souhaite-t-on afficher dans ce dashboard ?
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
       <section id="about" class="about-section">
         <div class="container">
-          <h2>About</h2>
+          <h2>À propos</h2>
           <p>
-            This dashboard provides real-time insights and analytics to help you
-            make informed decisions.
+            Mongalet propose la meilleure solution de filtration et de
+            distribution d'eau potable.
           </p>
         </div>
       </section>
@@ -61,7 +100,7 @@
 
     <footer>
       <div class="container">
-        <p>&copy; 2024 Mongalet Dashboards. All rights reserved.</p>
+        <p>&copy; 2026 Mongalet. All rights reserved.</p>
       </div>
     </footer>
   </body>
